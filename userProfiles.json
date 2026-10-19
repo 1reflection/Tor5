@@ -1,0 +1,64 @@
+{
+    "users": [
+        {
+            "profile": {
+                "firstName": "Yulu",
+                "lastName": "Chen",
+                "email": "luuuuuu_0617@qq.com",
+                "dateOfBirth": "2006-08-18",
+                "address": {
+                    "street": "12 Lake Road",
+                    "city": "Auckland",
+                    "state": "Auckland",
+                    "zipCode": "0620"
+                }
+            },
+            "preferences": {
+                "theme": "light",
+                "language": "zh-CN",
+                "notifications": true,
+                "subscription": true
+            }
+        },
+        {
+            "profile": {
+                "firstName": "Alex",
+                "lastName": "Wang",
+                "email": "alex.wang@example.com",
+                "dateOfBirth": "2003-09-12",
+                "address": {
+                    "street": "25 River Street",
+                    "city": "Wellington",
+                    "state": "Wellington",
+                    "zipCode": "6011"
+                }
+            },
+            "preferences": {
+                "theme": "dark",
+                "language": "en-NZ",
+                "notifications": false,
+                "subscription": false
+            }
+        },
+        {
+            "profile": {
+                "firstName": "Mia",
+                "lastName": "Li",
+                "email": "mia.li@example.com",
+                "dateOfBirth": "2004-02-26",
+                "address": {
+                    "street": "8 Garden Avenue",
+                    "city": "Christchurch",
+                    "state": "Canterbury",
+                    "zipCode": "8011"
+                }
+            },
+            "preferences": {
+                "theme": "light",
+                "language": "en",
+                "notifications": true,
+                "subscription": false
+            }
+        }
+    ]
+}

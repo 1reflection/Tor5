@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue>
+  <book id="b001">
+    <title>Web Development Basics</title>
+    <author>Alice Brown</author>
+    <price>39.90</price>
+  </book>
+
+  <book id="b002">
+    <title>Internet of Things Fundamentals</title>
+    <author>David Chen</author>
+    <price>59.50</price>
+  </book>
+
+  <book id="b003">
+    <title>XML &amp; JSON Practice</title>
+    <author>Emma Wilson</author>
+    <price>45.00</price>
+  </book>
+</catalogue>

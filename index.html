@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>XML JSON data display lab</title>
+    <style>
+      body{
+        margin: 0;
+        padding: 24px;
+        font-family: Arial,"Microsoft YaHei",sans-serif;
+        background: #f3f6fa;
+        color: #243247;
+        line-height: 1.6;
+      }
+      main{
+        max-width:1100px;
+        margin:auto;
+      }
+      section{
+        margin-top:24px;
+        padding:24px;
+        background: white;
+        border-radius: 12px;
+      }
+      .table-wrap{
+        overflow-x: auto;
+      }
+      table{
+        width:100%;
+        border-collapse: collapse;
+      }
+      th,td{
+        padding: 12px;
+        border:1px solid #d9e1eb;
+        text-align:left;
+      }
+      th{
+        background:#eaf1fa;
+      }
+      .profiles{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+        gap: 16px;
+      }
+      .profile-card {
+      padding: 18px;
+      border: 1px solid #d9e1eb;
+      border-radius: 10px;
+      overflow-wrap: anywhere;
+    }
+
+    .profile-card h3 {
+      margin-top: 0;
+    }
+
+    .status {
+      color: #526477;
+    }
+
+    .error {
+      color: #b42318;
+    }
+    </style>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>XML and JSON data display lab</h1>
+      <p>Use the Fetch API to asynchronously read data, and display the results via DOM manipulation.</p>
+      <section>
+        <h2>lab1:XML book content</h2>
+        <p id="books-status" class="status" role="status">Loading data...</p>
+        <div class="table-wrap">
+          <table>
+            <thread>
+              <tr>
+                <th>number</th>
+                <th>name</th>
+                <th>author</th>
+                <th>price</th>
+              </tr>
+            </thread>
+            <tbody id="books-body"></tbody>
+          </table>
+        </div>
+      </section>
+      <section>
+        <h2>lab2:JSON users profile</h2>
+        <p id="users-status" class="status" role="status">
+        Loading data...
+      </p>
+      <div id="users-list" class="profiles"></div>
+      </section>
+    </main>
+  </body>
+</html>
